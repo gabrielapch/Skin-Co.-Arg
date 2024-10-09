@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Publicidad - Skin Co</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", serif;
+            font-style: normal;
+        }
+
+
+        .publicidad {
+            display: flex;
+            justify-content: space-around;
+            flex-flow: wrap;
+            align-items: center;
+            background: #b9ddb1;
+        }
+
+        .publicidad h1 {
+            text-transform: uppercase;
+            font-family: "Roboto", serif;
+            font-weight: 800;
+            font-style: normal;
+            font-size: 30px;
+            color: #13430F;
+        }
+
+        .logo-publicidad img {
+            margin: 5px;
+            max-width: 100%;
+        }
+
+
+        .link-anuncio {
+            background: #13430F;
+            color: #FFFFFF;
+            padding: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .publicidad {
+                text-align: center;
+                height: 100vh;
+                align-content: center;
+            }
+
+            .logo-publicidad img {
+                /*height: 120px;*/
+                margin: 5px;
+                /*max-width: 200px;*/
+            }
+            .logo-publicidad {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="publicidad">
+        <h1>Elige Skin Co</h1>
+        <a href="index.html" class="logo-publicidad" ><img src="imgs/logo2.png" alt=""></a>
+        <a href="index.html" class="link-anuncio">Comprar</a>
+    </div>
+</body>
+</html>
